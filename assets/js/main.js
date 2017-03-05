@@ -5,7 +5,6 @@ var array=[ { nombre : "Arabela", apellido : "Rojas", rol : "T.A", cumpleanios :
 { nombre : "Papu", apellido : "Rivariola", rol : "Psicóloga", cumpleanios : "10 de octubre" },
 { nombre : "Gian", apellido : "Corzo", rol : "Profesor", cumpleanios : "23 de enero" } ];
 
-var envio=document.getElementById('envio')
 array.forEach(function(e){
 envio.innerHTML+="<div><ul><li>Nombre: "+e.nombre+
                       "</li><li>Apellidos: "+e.apellido+
